@@ -30,7 +30,15 @@ header{
     padding: 40px;
     position: fixed ;
     z-index: 1;
+    transition: .5s;
+}
 
+header.rolagem{
+    background-color: #C4E0FA;
+}
+header.doacao {
+    background-color:white; 
+    transition: background-color .5s;
 }
 
 .conlogo{
@@ -52,6 +60,7 @@ header{
     margin-left: 5vh;
 }
 
+
 nav ul {
     list-style: none;
     display: flex;
@@ -64,6 +73,7 @@ nav ul {
   nav ul li {
     margin: 0 100px;
     margin-top: 5vh;
+    display: inline-block;
   }
   
   nav ul li a {
